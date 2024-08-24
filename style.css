@@ -1,0 +1,118 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 239, 239);
+}
+
+.navbar-brand{
+    margin-right: 30px;
+    
+}
+
+/* left slider start */
+
+.left-btn{
+    padding: 18px 28px;
+    border-radius: 50px;
+    margin-left: 20px;
+    box-shadow: 0px 2px 5px -2px rgb(0, 0, 0.7);
+    background:#c2e7ff;
+    /* border: none; */
+}
+.left-btn:hover{
+    background-color:#dde7ee;
+}
+.tab{
+    width: 90%;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px 0;
+    display: flex;
+
+}
+
+.tab:hover{
+    background-color: rgb(233, 224, 224);
+}
+
+
+.tab span{
+    margin-left: 20px;
+}
+.tab p {
+    margin-left: 15px;
+}
+
+            /* window start */
+
+.window{
+    background-color: white;
+    margin-top: 10px;
+    border-radius:10px;
+    /* overflow-y: scroll; */
+
+}
+.manu-bar{
+    margin-top: 10px;
+}
+.manu-bar span{
+    margin-right: 7px;
+    margin-left: 7px;
+
+}
+
+.hover-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.hover-btn:hover{
+    background-color: rgb(243, 239, 239) ;
+}
+
+.hover-btn p {
+    text-align: center;
+    margin-left: 13px;
+}
+
+/* ....email msg start... */
+
+.email-msg {
+    padding-top: 10px;
+    padding: 2px;
+    border-bottom: 1px solid whitesmoke;
+    cursor: pointer;
+}
+
+
+.email-msg:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.34);
+    
+}
+
+
+.email-person{
+    display: flex;
+}
+.email-person span{
+    margin-left: 7px;
+    margin-right: 7px;
+
+}
+
+/* ///RIGHT SLIDER */
+.side-img img {
+    width: 45px;
+    margin-top: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.side-img img:hover{
+    border-top: 1px solid whitesmoke;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.34);
+}
