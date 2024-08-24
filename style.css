@@ -105,6 +105,11 @@ body{
 }
 
 /* ///RIGHT SLIDER */
+
+.side-img{
+    width: 100px;
+}
+
 .side-img img {
     width: 45px;
     margin-top: 40px;
